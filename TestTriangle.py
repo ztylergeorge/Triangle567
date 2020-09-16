@@ -21,9 +21,6 @@ class TestTriangles(unittest.TestCase):
         self.assertEqual(classifyTriangle(3,4,'five'), 'InvalidInput', 'Not a valid input')
 
     def testNotIntegerB(self):
-        self.assertEqual(classifyTriangle(3,True,5), 'InvalidInput', 'Not a valid input')
-
-    def testNotIntegerC(self):
         self.assertEqual(classifyTriangle(3.0,4,5), 'InvalidInput', 'Not a valid input')
 
     def testValidTriangleA(self):
