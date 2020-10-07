@@ -27,7 +27,7 @@ def classify_triangle(side_a: int,side_b: int,side_c: int) -> str:
     """
 
     #create blank string
-    outputted_triangle: str = ''
+    outputted_triangle = ''
 
     #verify that all 3 inputs are integers
     #Python's "isinstance(object,type) returns True if the object is of the specified type
